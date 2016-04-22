@@ -3,8 +3,12 @@ public class Calculator {
 
 	
 	public int Add(String numbers){
-		
-		return 0;
+		int result = 0;
+		String[] nArray = numbers.split(",");
+		for (String n: nArray){
+			result += Integer.parseInt(n);
+		}
+		return result;
 	}
 
 }

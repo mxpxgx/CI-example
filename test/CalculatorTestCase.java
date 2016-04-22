@@ -24,7 +24,7 @@ public class CalculatorTestCase {
 	public void testOneValueAdd(){
 		String val = "10,20";
 
-		assertEquals(0,calc.Add(val));
+		assertEquals(30,calc.Add(val));
 	}
 
 	
